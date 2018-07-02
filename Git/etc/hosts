@@ -1,0 +1,18 @@
+#@SwitchHosts! {"url": null, "icon_idx": 0, "title": "\u6d4b\u8bd5\u73af\u5883"}
+
+
+
+10.40.2.186   car-test.baoko.cn
+10.40.2.186   bd-test.baoko.cn
+10.40.2.186   c-test.baoko.cn
+
+10.40.11.100   car-test2.baoko.cn
+10.40.11.100   bd-test2.baoko.cn
+10.40.11.100   c-test2.baoko.cn
+10.40.11.21    nobug.zeus.com
+10.40.11.105   wiki.baoko.cn
+10.40.2.207    bd-tests.baoko.cn
+10.40.11.20   qidian.zeus.com
+10.40.2.186   pc.baoko.cn
+
+10.40.2.47 windows10.microdone.cn
