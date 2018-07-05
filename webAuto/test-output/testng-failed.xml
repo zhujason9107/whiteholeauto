@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [whitehole]">
+  <parameter name="loginPage" value="https://bd.baoko.cn/login"/>
+  <parameter name="browserType" value="chrome"/>
+  <test name="登录页面测试(failed)">
+    <classes>
+      <class name="com.baoko.web.testcase.LoginTest">
+        <methods>
+          <include name="loginTest"/>
+          <include name="test" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.baoko.web.testcase.LoginTest -->
+    </classes>
+  </test> <!-- 登录页面测试(failed) -->
+</suite> <!-- Failed suite [whitehole] -->

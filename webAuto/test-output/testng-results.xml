@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="whitehole" duration-ms="4030" started-at="2018-07-05T05:47:05Z" finished-at="2018-07-05T05:47:09Z">
+    <groups>
+    </groups>
+    <test name="登录页面测试" duration-ms="4030" started-at="2018-07-05T05:47:05Z" finished-at="2018-07-05T05:47:09Z">
+      <class name="com.baoko.web.testcase.LoginTest">
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.baoko.web.testcase.LoginTest@5b275dab]" name="loginTest" is-config="true" duration-ms="3646" started-at="2018-07-05T13:47:05Z" finished-at="2018-07-05T13:47:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://bd.baoko.cn/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.baoko.web.testcase.LoginTest@5b275dab]" name="test" duration-ms="242" started-at="2018-07-05T13:47:09Z" data-provider="datas" finished-at="2018-07-05T13:47:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[13662236074]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[账号错误]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- com.baoko.web.testcase.LoginTest -->
+    </test> <!-- 登录页面测试 -->
+  </suite> <!-- whitehole -->
+</testng-results>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [百度]">
+  <parameter name="driverPath" value="./src/test/resources/chromedriver.exe"/>
+  <parameter name="loginPage" value="https://bd.baoko.cn/login"/>
+  <parameter name="browserType" value="chrome"/>
+  <test name="打开页面测试(failed)">
+    <classes>
+      <class name="com.baoko.web.auto.WebAuto">
+        <methods>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- com.baoko.web.auto.WebAuto -->
+    </classes>
+  </test> <!-- 打开页面测试(failed) -->
+</suite> <!-- Failed suite [百度] -->
