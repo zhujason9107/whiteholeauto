@@ -25,7 +25,7 @@ public class WhiteHoleLoginPage extends BasePage{
 		return element(GetByLocator.getLocator("password"));
 	}
 	/**
-	 * 获取登陆按钮element
+	 * 获取登陆按钮  element
 	 * */
 	public WebElement getLoginButtonElement(){
 		return element(GetByLocator.getLocator("loginbutton"));
